@@ -52,6 +52,7 @@ a {
 .visual_text h2 {
   font-size: 70px;
   margin-bottom: 1vw;
+  font-family: "Playfair Display", serif;
 }
 .visual_text h3 {
   font-size: 35px;
@@ -158,6 +159,10 @@ a {
   text-align: center;
   padding-top: 5vw;
   font-size: 50px;
+  font-family: "Playfair Display", serif;
+}
+#con1 span {
+  font-size: 65px;
 }
 #con1 h3 {
   text-align: center;
@@ -197,12 +202,7 @@ a {
   padding: 1vw;
   display: none;
 }
-.more:hover {
-  background: #eee;
-}
-.more:hover a {
-  color: #111;
-}
+
 .holiimg:hover .more {
   display: block;
 }
@@ -255,7 +255,7 @@ a {
 }
 #con2 .off p {
   color: #fff;
-  padding-top: 10px;
+  padding-top: 15px;
   font-size: 0.7vw;
 }
 #con2 .off h5 {
@@ -276,6 +276,7 @@ a {
   text-align: center;
   padding-top: 5vw;
   font-size: 50px;
+  font-family: "Playfair Display", serif;
 }
 #con2 > h3 {
   text-align: center;
@@ -284,19 +285,52 @@ a {
 }
 .beauty_list {
   width: 60%;
-  margin: 5vw auto;
+  margin: 5vw auto 0vw;
   display: flex;
   justify-content: space-around;
+  text-align: center;
 }
-
+.beauty_list li {
+  text-align: center;
+  width: 30%;
+}
+/*
 .beauty_list img {
   width: 100%;
   height: 20vw;
+}
+*/
+
+.listimg {
+  position: relative;
+}
+.list_img1 {
+  width: 100%;
+  height: 18vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.list_img1 img {
+  width: 100%;
+}
+.list_text1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  background: #111;
+  padding: 0.8vw;
+  display: none;
 }
 .beauty_list p {
   text-align: center;
   padding-top: 5vw;
   font-size: 0.7vw;
+}
+.list_text1 span {
+  color: #fff;
 }
 .beauty_list h2 {
   text-align: center;
@@ -314,25 +348,35 @@ a {
   border-bottom: 1px solid #111;
   display: inline-block;
   padding-top: 5vw;
-  margin-left: 7vw;
+  margin-left: 1vw;
+  font-size: 0.7vw;
 }
-
+.beauty_list:nth-of-type(2) a {
+  margin-left: 0vw;
+}
 .listimg {
   width: 100%;
   height: 20vw;
 }
-.listimg img:hover {
+.listimg:hover img {
   transform: scale(1.2);
   transition: 1s;
 }
-
+.listimg:hover .list_text1 {
+  display: block;
+}
 /*con3*/
 
 #con3 {
   width: 100%;
   position: relative;
 }
-
+.wrap {
+  width: 100%;
+  height: 75vh;
+  margin-top: 5vw;
+  background: url(../img/BG.jpg);
+}
 .swiper {
   width: 80%;
   position: relative;
@@ -342,13 +386,16 @@ a {
 }
 .swiper h2 {
   text-align: center;
-  padding-top: 5vw;
+  padding-top: 2vw;
   font-size: 50px;
+  color: #fff;
+  font-family: "Playfair Display", serif;
 }
 .swiper h3 {
   text-align: center;
   padding-top: 2vw;
   font-size: 30px;
+  color: #fff;
 }
 .swiper-slide {
   width: 100%;
@@ -371,22 +418,28 @@ a {
   display: block;
   margin: 0px auto;
 }
+.swiper-wrapper img:hover {
+  transform: scale(1.1);
+  transition: 0.8s;
+}
 .swiper-wrapper h4 {
   text-align: center;
-  padding-top: 1vw;
-  padding-bottom: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 1vw;
+  color: #fff;
 }
 
 .swiper-wrapper a {
-  border-bottom: 1px solid #fff;
+  text-align: center;
   font-size: 0.8vw;
-  color: #111;
-  border-bottom: 1px solid #111;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  display: inline-block;
 }
 .slidecon2 {
   width: 100%;
   position: absolute;
-  top: 28%;
+  top: 25%;
   z-index: 999;
 }
 .slidecon2 .next2 {
@@ -398,7 +451,7 @@ a {
   left: 8%;
 }
 .slidecon2 a {
-  color: #111;
+  color: #fff;
 }
 .exclusive {
   width: 100%;
@@ -408,8 +461,9 @@ a {
 }
 .exclusive h2 {
   text-align: center;
-  padding-top: 15vw;
+  padding-top: 5vw;
   font-size: 50px;
+  font-family: "Playfair Display", serif;
 }
 .exclusive h3 {
   text-align: center;
@@ -457,7 +511,7 @@ a {
 
 .slidecon a {
   position: absolute;
-  top: 60%;
+  top: 50%;
   color: #111;
   font-size: 25px;
 }

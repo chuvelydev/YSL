@@ -1,0 +1,239 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+  font-family: "Pretendard-Regular";
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*컨테이너*/
+
+#container {
+  width: 100%;
+}
+#con1 {
+  width: 100%;
+}
+#con1 h2 {
+  text-align: center;
+  font-size: 3.5vw;
+  font-family: "Playfair Display", serif;
+  padding-top: 5vw;
+}
+#con1 h3 {
+  text-align: center;
+  font-size: 1vw;
+  padding-top: 1vw;
+}
+
+.main_img {
+  width: 100%;
+  text-align: center;
+  padding-top: 5vw;
+}
+.con1_text {
+  width: 60%;
+  margin: 5vw auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.con1_text img {
+  width: 70%;
+}
+.con1_text li {
+  width: 100%;
+}
+.con1_text p {
+  font-size: 1vw;
+  line-height: 2vw;
+  padding-top: 8vw;
+}
+
+/*con2*/
+#con2 {
+  width: 100%;
+  height: 100vh;
+}
+
+.con2_product {
+  width: 100%;
+  height: 35vw;
+  background: #111;
+  color: #fff;
+}
+.con2_product1 {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+  align-items: center;
+}
+.con2_product1 li {
+  width: 100%;
+  text-align: center;
+  margin: 0px auto;
+}
+.con2_product1 > li:nth-of-type(1) {
+  position: relative;
+}
+.large {
+  margin: 0px auto;
+  text-align: center;
+  width: 25vw;
+  height: 25vw;
+  margin: 1vw auto;
+}
+
+.large img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #111;
+}
+.large li {
+  width: 25vw;
+  height: 25vw;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  display: none;
+}
+.large li.on {
+  display: block;
+}
+.small {
+  width: 5vw;
+  height: 5vw;
+  display: flex;
+}
+.small li {
+  border: 1px solid #111;
+  margin-left: 1vw;
+}
+.small img {
+  height: 100%;
+}
+
+.con2_product1 h2 {
+  font-size: 2.2vw;
+  margin-top: -5vw;
+}
+.con2_product1 h3 {
+  font-size: 1vw;
+  margin: 1vw;
+  font-weight: 300;
+}
+.con2_product1 h4 {
+  font-size: 0.8vw;
+  font-weight: 300;
+}
+.con2_product1 p {
+  font-size: 0.8vw;
+  margin-top: 5vw;
+}
+
+.color_box {
+  width: 15vw;
+  padding: 0.8vw;
+  border: 1px solid #fff;
+  margin: 1vw auto;
+  box-sizing: border-box;
+}
+.color_box ul {
+  display: flex;
+}
+.color_box li:not(:last-of-type) {
+  width: 100%;
+  margin-right: 0.5vw;
+}
+.colorbox {
+  align-items: center;
+}
+.box1 {
+  width: 30px;
+  height: 30px;
+  background: pink;
+}
+.box2 {
+  width: 30px;
+  height: 30px;
+  background: pink;
+}
+.box3 {
+  width: 30px;
+  height: 30px;
+  background: pink;
+}
+.box4 {
+  width: 30px;
+  height: 30px;
+  background: pink;
+}
+.box5 {
+  width: 30px;
+  height: 30px;
+  background: pink;
+}
+.box6 {
+  width: 30px;
+  height: 30px;
+  background: pink;
+}
+.custom-select select {
+  display: none;
+}
+
+.custom-select {
+  position: relative;
+  width: 40%;
+  margin: 0px auto;
+}
+
+.custom-select select {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.custom-select select:focus {
+  outline: none;
+}
+
+.custom-select .arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.custom-select .arrow::before {
+  content: "\25BC"; /* 화살표 모양 */
+  font-size: 14px;
+  color: #666;
+}
+
+/* 셀렉트 박스 옵션 스타일 설정 */
+.custom-select select option {
+  padding: 5px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.custom-select select option:hover {
+  background-color: #ddd;
+}

@@ -1,0 +1,169 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+  font-family: "Pretendard-Regular";
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+#visual {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  margin-top: -30.2vh;
+}
+#visual img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: fill;
+}
+#visual .visual_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+#visual .visual_text h2 {
+  font-size: 100px;
+  font-family: "Playfair Display", serif;
+}
+#visual .visual_text h3 {
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 1vw;
+}
+#fp-nav {
+  display: none;
+}
+
+/*컨테이너*/
+
+.section {
+  background: url(../img/down.jfif);
+  z-index: 888;
+  overflow: hidden;
+}
+.ysl {
+  width: 80%;
+  margin: 0px auto;
+  position: relative;
+}
+.ysl_1 {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+}
+.ysl_1 li {
+  width: 38%;
+  height: 100vh;
+  margin: 0px auto;
+}
+.ysl_1 img {
+  width: 100%;
+  height: 80%;
+}
+.ysl_text {
+  width: 80%;
+  padding-top: 5vw;
+}
+.ysl_text h3 {
+  font-size: 1.5vw;
+}
+.ysl_text p {
+  font-size: 1vw;
+  line-height: 2vw;
+  padding-top: 2vw;
+}
+.ysl_text2 {
+  text-align: center;
+  width: 80%;
+  margin: -400px auto;
+}
+.ysl_text2 h2 {
+  font-size: 50px;
+  padding-bottom: 3vw;
+}
+.ysl_text2 p {
+  font-size: 20px;
+  line-height: 35px;
+  text-align: left;
+}
+/*푸터*/
+
+footer {
+  width: 100%;
+  height: 300px;
+  background: black;
+  display: block;
+  position: absolute;
+  bottom: 15%;
+}
+.fo1 {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.fo_img {
+  display: flex;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  font-size: 0.8vw;
+  cursor: pointer;
+}
+.fo_img li {
+  margin-right: 2vw;
+}
+
+.fo_list {
+  display: flex;
+  width: 80%;
+  margin: 50px auto;
+  justify-content: space-between;
+}
+.fo_list1 {
+  display: flex;
+}
+.fo_list li {
+  margin-right: 2vw;
+}
+.fo_list a {
+  color: #fff;
+  font-size: 0.6vw;
+}
+.fo_list p {
+  color: #fff;
+  font-size: 0.6vw;
+}
+.up {
+  background: #111;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  position: fixed;
+  text-align: center;
+  right: 60px;
+  bottom: 2%;
+  display: none;
+}
+.up a {
+  color: #fff;
+}
+.up span {
+  color: #fff;
+}
