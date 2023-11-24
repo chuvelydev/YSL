@@ -65,7 +65,11 @@ a {
 .visual_box {
   width: 30%;
   background: #111;
+<<<<<<< HEAD
   border: 1px solid #111;
+=======
+  border:1px solid #111;
+>>>>>>> 80762678842999ced60aed72eae5939da6dcd599
   padding: 1vw;
   align-items: center;
   position: absolute;
@@ -78,8 +82,13 @@ a {
   font-size: 16px;
 }
 .visual_box:hover {
+<<<<<<< HEAD
   background: transparent;
   border: 1px solid #111;
+=======
+  background:transparent;
+  border:1px solid #111;
+>>>>>>> 80762678842999ced60aed72eae5939da6dcd599
   width: 30%;
 }
 .visual_box:hover a {
@@ -229,16 +238,26 @@ a {
   height: 5vh;
   background: #111;
   margin: 2vw auto;
+<<<<<<< HEAD
   border: 1px solid #111;
+=======
+  border:1px solid #111;
+>>>>>>> 80762678842999ced60aed72eae5939da6dcd599
 }
 #con1 .box a {
   color: #fff;
   height: 5vh;
   line-height: 5vh;
+
 }
 #con1 .box:hover {
+<<<<<<< HEAD
   background: transparent;
   border: 1px solid #111;
+=======
+  background:transparent;
+  border:1px solid #111;
+>>>>>>> 80762678842999ced60aed72eae5939da6dcd599
 }
 #con1 .box:hover a {
   color: #111;
