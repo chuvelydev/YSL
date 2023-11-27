@@ -17,16 +17,17 @@ a {
 #container {
   width: 100%;
 }
-#container h2 {
+#container > h2 {
   text-align: center;
   font-size: 70px;
   font-family: "Playfair Display", serif;
   padding-top: 5vw;
 }
-#container h3 {
+#container > h3 {
   text-align: center;
   font-size: 30px;
   padding-top: 2vw;
+  color: #333;
 }
 #con1 {
   width: 100%;
@@ -34,21 +35,250 @@ a {
 }
 .con1_1 {
   width: 100%;
+  height: 35vh;
   position: relative;
+  text-align: center;
 }
 .con1_1 img {
   width: 100%;
+  height: 100%;
   position: absolute;
   left: 0;
   top: 0;
 }
 .con1_1 h3 {
   position: absolute;
-  right: 20%;
+  right: 22%;
   top: 20%;
+  font-size: 30px;
+  line-height: 40px;
 }
 .con1_1 h4 {
   position: absolute;
-  right: 20%;
+  right: 19.5%;
+  top: 48%;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333;
+}
+.con1_1 span {
+  color: #d55866;
+}
+.con1_1 h5 {
+  position: absolute;
+  right: 23%;
+  top: 72%;
+  font-size: 15px;
+  color: #333;
+  font-family: "Playfair Display", serif;
+}
+.con1_text {
+  text-align: center;
+  padding: 5vw;
+  font-size: 20px;
+  line-height: 30px;
+}
+.con1_text span {
+  color: #d55866;
+}
+.con1_2 {
+  width: 100%;
+  height: 500px;
+  background: #fbe2e5;
+  text-align: center;
+  position: relative;
+}
+.con1_2 > h2 {
+  padding: 0.5vw;
+  font-size: 20px;
+  color: #fff;
+  background: #d55866;
+  width: 10%;
+  border-radius: 0.5vw;
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.con1_2 > h3 {
+  font-size: 20px;
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.con1_2 ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+  width: 60%;
+  height: 300px;
+  position: absolute;
   top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.con1_2 img {
+  width: 20%;
+  padding-top: 1vw;
+}
+
+.con1_2 ul h3 {
+  font-size: 25px;
+  color: #d55866;
+}
+.con1_2 ul h4 {
+  font-size: 20px;
+  padding-top: 1vw;
+}
+.con1_2 ul p {
+  font-size: 16px;
+  padding-top: 1vw;
+  color: #555;
+}
+/*con2*/
+
+#con2 {
+  width: 100%;
+}
+#con2 > h2 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  font-family: "Playfair Display", serif;
+  padding-top: 5vw;
+}
+.con2_1 {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 5vw auto;
+  align-items: center;
+}
+.con2_1 li {
+  width: 48%;
+}
+.con2_1 img {
+  width: 100%;
+}
+.con2_1 h4 {
+  text-align: center;
+  font-size: 20px;
+  line-height: 40px;
+}
+#con2 h3 {
+  text-align: center;
+  font-size: 40px;
+}
+.con2_2 {
+  display: flex;
+  width: 60%;
+  margin: 0px auto;
+  justify-content: space-between;
+  padding-top: 5vw;
+  padding-bottom: 15vw;
+}
+.con2_2 li {
+  width: 520px;
+  height: 320px;
+  margin-right: 2vw;
+}
+.con2_2 img {
+  width: 100%;
+  height: 100%;
+}
+.con2_2 h4 {
+  font-size: 18px;
+  padding: 1vw 0;
+}
+.con2_2 p {
+  font-size: 15px;
+  color: #555;
+}
+/*con3*/
+#con3 {
+  width: 100%;
+}
+.con3_1 {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+.con3_1 img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.con3_1 h3 {
+  position: absolute;
+  top: 30%;
+  right: 13%;
+  color: #fff;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+}
+.con3_1 h4 {
+  position: absolute;
+  top: 65%;
+  right: 15%;
+  color: #fff;
+  font-size: 15px;
+  line-height: 35px;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  padding: 0.5vw;
+  text-align: center;
+}
+.con3_1 p {
+  position: absolute;
+  top: 48%;
+  right: 14.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+.con3_2 {
+  width: 100%;
+  display: flex;
+  padding-top: 15vw;
+  justify-content: space-between;
+  padding-bottom: 10vw;
+  align-items: center;
+}
+.con3_2 li {
+  width: 100%;
+  height: 320px;
+}
+.con3_2 img {
+  width: 100%;
+  height: 100%;
+}
+.con3_2 h4 {
+  text-align: center;
+  padding-top: 4vw;
+  font-size: 20px;
+  line-height: 40px;
+}
+.con3_box {
+  width: 15%;
+  padding: 0.8vw;
+  text-align: center;
+  background: #111;
+  margin: 3vw auto 0;
+  border: 1px solid #111;
+}
+.con3_box a {
+  font-size: 15px;
+  color: #fff;
+}
+.con3_box:hover {
+  background: transparent;
+  border: 1px solid #111;
+}
+.con3_box:hover a {
+  color: #111;
 }

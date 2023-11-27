@@ -27,3 +27,6 @@ header h1 img {
   color: #222;
   font-size: 1vw;
 }
+.menu a:hover {
+  font-weight: bold;
+}

@@ -55,7 +55,7 @@ a {
   width: 100%;
 }
 .con1_text p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 2vw;
   padding-top: 8vw;
 }
@@ -136,7 +136,7 @@ a {
   font-weight: 300;
 }
 .con2_product1 h4 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
 }
 .con2_product1 p {
@@ -375,7 +375,7 @@ a {
   margin: 0px auto;
 }
 .con4_box {
-  width: 16%;
+  width: 18%;
   padding: 1vw;
   background: #111;
   margin: 4vw auto 8vw;
@@ -383,7 +383,7 @@ a {
 }
 .con4_box a {
   color: #fff;
-  font-size: 15px;
+  font-size: 1vw;
 }
 .con4_box:hover {
   border: 1px solid #111;

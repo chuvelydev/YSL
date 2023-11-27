@@ -57,10 +57,12 @@ a {
 .visual_text h3 {
   font-size: 35px;
   margin-bottom: 1vw;
+  color: #333;
 }
 .visual_text p {
   font-size: 20px;
   margin-bottom: 0.5vw;
+  color: #333;
 }
 .visual_box {
   width: 30%;
@@ -220,6 +222,7 @@ a {
   font-size: 15px;
   padding-top: 1vw;
   padding-bottom: 1vw;
+  color: #333;
 }
 .holiday_list h5 {
   font-size: 18px;
@@ -345,6 +348,7 @@ a {
   text-align: center;
   font-size: 0.8vw;
   padding-top: 1vw;
+  color: #333;
 }
 
 .beauty_list a {
@@ -504,6 +508,7 @@ a {
 .exclu_list p {
   font-size: 0.8vw;
   padding-top: 3vw;
+  color: #333;
 }
 .exclu_list a {
   color: #111;
