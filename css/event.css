@@ -14,6 +14,54 @@ ul {
 a {
   text-decoration: none;
 }
+/*애니메이션*/
+@keyframes up {
+  0% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes down {
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes left {
+  0% {
+    transform: translateX(-150px);
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes right {
+  0% {
+    transform: translateX(250px);
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 #container {
   width: 100%;
 }
@@ -22,12 +70,16 @@ a {
   font-size: 70px;
   font-family: "Playfair Display", serif;
   padding-top: 5vw;
+  animation: up 1s ease-in forwards;
+  opacity: 0;
 }
 #container > h3 {
   text-align: center;
   font-size: 30px;
   padding-top: 2vw;
   color: #333;
+  animation: up 1s 0.5s ease-in forwards;
+  opacity: 0;
 }
 #con1 {
   width: 100%;
@@ -38,6 +90,8 @@ a {
   height: 35vh;
   position: relative;
   text-align: center;
+  animation: up 1s 1s ease-in forwards;
+  opacity: 0;
 }
 .con1_1 img {
   width: 100%;
@@ -61,6 +115,15 @@ a {
   line-height: 30px;
   color: #333;
 }
+.con1_text h4:nth-of-type(1).on {
+  animation: up 1s ease-out forwards;
+}
+.con1_text h4:nth-of-type(2).on {
+  animation: up 1s 0.3s ease-out forwards;
+}
+.con1_text h4:nth-of-type(3).on {
+  animation: up 1s 0.5s ease-out forwards;
+}
 .con1_1 span {
   color: #d55866;
 }
@@ -78,6 +141,9 @@ a {
   font-size: 20px;
   line-height: 30px;
 }
+.con1_text h4 {
+  opacity: 0;
+}
 .con1_text span {
   color: #d55866;
 }
@@ -87,6 +153,10 @@ a {
   background: #fbe2e5;
   text-align: center;
   position: relative;
+  opacity: 0;
+}
+.con1_2.on {
+  animation: up 1s 0.5s ease-out forwards;
 }
 .con1_2 > h2 {
   padding: 0.5vw;
@@ -118,11 +188,15 @@ a {
   left: 50%;
   transform: translateX(-50%);
 }
+
 .con1_2 img {
   width: 20%;
   padding-top: 1vw;
 }
-
+.con1_2 img:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
 .con1_2 ul h3 {
   font-size: 25px;
   color: #d55866;
@@ -147,6 +221,10 @@ a {
   line-height: 50px;
   font-family: "Playfair Display", serif;
   padding-top: 5vw;
+  opacity: 0;
+}
+#con2 > h2.on {
+  animation: up 1s ease-out forwards;
 }
 .con2_1 {
   display: flex;
@@ -156,10 +234,24 @@ a {
   align-items: center;
 }
 .con2_1 li {
+  opacity: 0;
+  overflow: hidden;
+}
+.con2_1 li:nth-of-type(1).on {
+  animation: left 1.5s ease-out forwards;
+}
+.con2_1 li:nth-of-type(2).on {
+  animation: right 1.5s 0.5s ease-out forwards;
+}
+.con2_1 li {
   width: 48%;
 }
 .con2_1 img {
   width: 100%;
+}
+.con2_1 img:hover {
+  transform: scale(1.2);
+  transition: 1s;
 }
 .con2_1 h4 {
   text-align: center;
@@ -169,6 +261,29 @@ a {
 #con2 h3 {
   text-align: center;
   font-size: 40px;
+  opacity: 0;
+}
+#con2 h3.on {
+  animation: up 1s ease-out forwards;
+}
+.con2_box {
+  width: 25%;
+  padding: 0.8vw;
+  text-align: center;
+  background: #111;
+  margin: 3vw auto 0;
+  border: 1px solid #111;
+}
+.con2_box a {
+  font-size: 15px;
+  color: #fff;
+}
+.con2_box:hover {
+  background: transparent;
+  border: 1px solid #111;
+}
+.con2_box:hover a {
+  color: #111;
 }
 .con2_2 {
   display: flex;
@@ -182,6 +297,16 @@ a {
   width: 520px;
   height: 320px;
   margin-right: 2vw;
+  opacity: 0;
+}
+.con2_2 li:nth-of-type(1).on {
+  animation: up 1s ease-out forwards;
+}
+.con2_2 li:nth-of-type(2).on {
+  animation: up 1s 0.5s ease-out forwards;
+}
+.con2_2 li:nth-of-type(3).on {
+  animation: up 1s 1s ease-out forwards;
 }
 .con2_2 img {
   width: 100%;
@@ -203,6 +328,10 @@ a {
   width: 100%;
   height: 400px;
   position: relative;
+  opacity: 0;
+}
+.con3_1.on {
+  animation: up 1s ease-out forwards;
 }
 .con3_1 img {
   width: 100%;
@@ -252,6 +381,13 @@ a {
 .con3_2 li {
   width: 100%;
   height: 320px;
+  opacity: 0;
+}
+.con3_2 li:nth-of-type(1).on {
+  animation: left 1s ease-out forwards;
+}
+.con3_2 li:nth-of-type(2).on {
+  animation: right 1s 0.5s ease-out forwards;
 }
 .con3_2 img {
   width: 100%;

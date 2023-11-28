@@ -14,6 +14,54 @@ ul {
 a {
   text-decoration: none;
 }
+/*애니메이션*/
+@keyframes up {
+  0% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes down {
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes left {
+  0% {
+    transform: translateX(-150px);
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes right {
+  0% {
+    transform: translateX(250px);
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*비주얼*/
 
 #visual {
@@ -53,16 +101,23 @@ a {
   font-size: 70px;
   margin-bottom: 1vw;
   font-family: "Playfair Display", serif;
+  opacity: 0;
+  animation: up 0.8s ease-out forwards;
 }
+
 .visual_text h3 {
   font-size: 35px;
   margin-bottom: 1vw;
   color: #333;
+  opacity: 0;
+  animation: up 0.8s 0.5s ease-out forwards;
 }
 .visual_text p {
   font-size: 20px;
   margin-bottom: 0.5vw;
   color: #333;
+  opacity: 0;
+  animation: up 0.8s 0.8s ease-out forwards;
 }
 .visual_box {
   width: 30%;
@@ -74,6 +129,8 @@ a {
   left: 35%;
   bottom: 20%;
   display: block;
+  opacity: 0;
+  animation: up 0.8s 1s ease-out forwards;
 }
 .visual_box a {
   color: #fff;
@@ -123,8 +180,11 @@ a {
   width: 100%;
   height: 10vh;
   position: relative;
+  opacity: 0;
 }
-
+.round.on {
+  animation: up 1s ease-out forwards;
+}
 .round_list {
   display: flex;
   justify-content: center;
@@ -164,6 +224,10 @@ a {
   padding-top: 5vw;
   font-size: 50px;
   font-family: "Playfair Display", serif;
+  opacity: 0;
+}
+#con1 h2.on {
+  animation: up 1s ease-out forwards;
 }
 #con1 span {
   font-size: 65px;
@@ -172,6 +236,10 @@ a {
   text-align: center;
   padding-top: 2vw;
   font-size: 30px;
+  opacity: 0;
+}
+#con1 h3.on {
+  animation: up 1s 0.5s ease-out forwards;
 }
 .holiday_list {
   width: 60%;
@@ -180,6 +248,10 @@ a {
   justify-content: space-between;
   gap: 10px;
   text-align: center;
+  opacity: 0;
+}
+.holiday_list.on {
+  animation: up 1s 1s ease-out forwards;
 }
 .holiimg {
   position: relative;
@@ -284,11 +356,19 @@ a {
   padding-top: 5vw;
   font-size: 50px;
   font-family: "Playfair Display", serif;
+  opacity: 0;
+}
+#con2 > h2.on {
+  animation: up 1s ease-out forwards;
 }
 #con2 > h3 {
   text-align: center;
   padding-top: 2vw;
   font-size: 30px;
+  opacity: 0;
+}
+#con2 > h3.on {
+  animation: up 1s 0.5s ease-out forwards;
 }
 .beauty_list {
   width: 60%;
@@ -330,6 +410,24 @@ a {
   background: #111;
   padding: 0.8vw;
   display: none;
+}
+#con2 > .beauty_list:nth-of-type(1) {
+  opacity: 0;
+}
+#con2 > .beauty_list:nth-of-type(1).on {
+  animation: left 1s ease-out forwards;
+}
+#con2 > .beauty_list:nth-of-type(2) {
+  opacity: 0;
+}
+#con2 > .beauty_list:nth-of-type(2).on {
+  animation: right 1s ease-out forwards;
+}
+#con2 > .beauty_list:nth-of-type(3) {
+  opacity: 0;
+}
+#con2 > .beauty_list:nth-of-type(3).on {
+  animation: left 1s ease-out forwards;
 }
 .beauty_list p {
   text-align: center;
@@ -398,12 +496,20 @@ a {
   font-size: 50px;
   color: #fff;
   font-family: "Playfair Display", serif;
+  opacity: 0;
+}
+.swiper h2.on {
+  animation: up 1s ease-out forwards;
 }
 .swiper h3 {
   text-align: center;
   padding-top: 2vw;
   font-size: 30px;
   color: #fff;
+  opacity: 0;
+}
+.swiper h3.on {
+  animation: up 1s 0.5s ease-out forwards;
 }
 .swiper-slide {
   width: 100%;
@@ -420,11 +526,16 @@ a {
   text-align: center;
   padding-top: 80px;
 }
+
 .swiper-wrapper img {
   width: 80%;
   height: 100%;
   display: block;
   margin: 0px auto;
+  opacity: 0;
+}
+.swiper-wrapper img.on {
+  animation: up 1s 1s ease-out forwards;
 }
 .swiper-wrapper img:hover {
   transform: scale(1.1);
@@ -435,14 +546,22 @@ a {
   padding-top: 2vw;
   padding-bottom: 1vw;
   color: #fff;
-}
 
+  opacity: 0;
+}
+.swiper-wrapper h4.on {
+  animation: up 1s 1.5s ease-out forwards;
+}
 .swiper-wrapper a {
   text-align: center;
   font-size: 0.8vw;
   color: #fff;
   border-bottom: 1px solid #fff;
   display: inline-block;
+  opacity: 0;
+}
+.swiper-wrapper a.on {
+  animation: up 1s 1.8s ease-out forwards;
 }
 .slidecon2 {
   width: 100%;
@@ -472,17 +591,29 @@ a {
   padding-top: 5vw;
   font-size: 50px;
   font-family: "Playfair Display", serif;
+  opacity: 0;
+}
+.exclusive h2.on {
+  animation: up 1s ease-out forwards;
 }
 .exclusive h3 {
   text-align: center;
   padding-top: 2vw;
   font-size: 30px;
+  opacity: 0;
+}
+.exclusive h3.on {
+  animation: up 1s 0.5s ease-out forwards;
 }
 .exclu_slide {
   display: flex;
   justify-content: center;
   padding-top: 3vw;
   width: 500%;
+  opacity: 0;
+}
+.exclu_slide.on {
+  animation: up 1s 1.5s ease-out forwards;
 }
 .exclu_slide li {
   width: 100%;
@@ -523,6 +654,10 @@ a {
   top: 50%;
   color: #111;
   font-size: 25px;
+  opacity: 0;
+}
+.slidecon a.on {
+  animation: up 1s 1.5s ease-out forwards;
 }
 .slidecon .prev {
   left: 10%;

@@ -14,6 +14,54 @@ ul {
 a {
   text-decoration: none;
 }
+/*애니메이션*/
+@keyframes up {
+  0% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes down {
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes left {
+  0% {
+    transform: translateX(-150px);
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes right {
+  0% {
+    transform: translateX(250px);
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 #visual {
   width: 100%;
   height: 100vh;
@@ -56,6 +104,42 @@ a {
 }
 .section:nth-of-type(2) {
   padding-top: 5vw;
+}
+.y1 li:nth-of-type(1) {
+  opacity: 0;
+}
+.y1 li:nth-of-type(2) {
+  opacity: 0;
+}
+.y1 li:nth-of-type(1).on {
+  animation: left 1s ease-out forwards;
+}
+.y1 li:nth-of-type(2).on {
+  animation: right 1s 0.5s ease-out forwards;
+}
+.y2 li:nth-of-type(1) {
+  opacity: 0;
+}
+.y2 li:nth-of-type(2) {
+  opacity: 0;
+}
+.y2 li:nth-of-type(1).on {
+  animation: left 1s 0.5s ease-out forwards;
+}
+.y2 li:nth-of-type(2).on {
+  animation: right 1s ease-out forwards;
+}
+.y3 li:nth-of-type(1) {
+  opacity: 0;
+}
+.y3 li:nth-of-type(2) {
+  opacity: 0;
+}
+.y3 li:nth-of-type(1).on {
+  animation: left 1s ease-out forwards;
+}
+.y3 li:nth-of-type(2).on {
+  animation: right 1s 0.5s ease-out forwards;
 }
 .ysl {
   width: 80%;
@@ -102,6 +186,11 @@ a {
   font-size: 30px;
   padding: 20px 0;
   color: #fff;
+  opacity: 0;
+  font-family: "Playfair Display", serif;
+}
+.heading h1.on {
+  animation: up 1s ease-out forwards;
 }
 .container {
   width: 95%;
@@ -121,6 +210,7 @@ a {
     "item4 item4 item2 item6";
   grid-gap: 10px;
   height: 600px;
+  padding-top: 3vw;
 }
 .item {
   background-repeat: no-repeat !important;
@@ -133,6 +223,10 @@ a {
 .item1 {
   grid-area: item1;
   background-position: top !important;
+  opacity: 0;
+}
+.item1.on {
+  animation: left 1s ease-in-out forwards;
 }
 .item img {
   width: 100%;
@@ -141,18 +235,38 @@ a {
 }
 .item2 {
   grid-area: item2;
+  opacity: 0;
+}
+.item2.on {
+  animation: up 1s 0.9s ease-in-out forwards;
 }
 .item3 {
   grid-area: item3;
+  opacity: 0;
+}
+.item3.on {
+  animation: right 1s 1.2s ease-in-out forwards;
 }
 .item4 {
   grid-area: item4;
+  opacity: 0;
+}
+.item4.on {
+  animation: right 1s 0.5s ease-in-out forwards;
 }
 .item5 {
   grid-area: item5;
+  opacity: 0;
+}
+.item5.on {
+  animation: left 1s 1.5s ease-in-out forwards;
 }
 .item6 {
   grid-area: item6;
+  opacity: 0;
+}
+.item6.on {
+  animation: right 1s 1.8s ease-in-out forwards;
 }
 .item:hover img {
   transform: scale(1.2);
@@ -168,9 +282,19 @@ a {
 .ysl_text2 h2 {
   font-size: 25px;
   font-family: "Playfair Display", serif;
+  opacity: 0;
 }
-
+.ysl_text2 h2.on {
+  animation: up 1s ease-out forwards;
+}
 .ysl_text2 h3 {
-  padding-top: 1vw;
+  padding-top: 1.5vw;
   font-size: 18px;
+  opacity: 0;
+}
+.ysl_text2 h3:nth-of-type(1).on {
+  animation: up 1s 0.5s ease-out forwards;
+}
+.ysl_text2 h3:nth-of-type(2).on {
+  animation: up 1s 0.8s ease-out forwards;
 }

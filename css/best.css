@@ -14,7 +14,54 @@ ul {
 a {
   text-decoration: none;
 }
-
+/*애니메이션*/
+@keyframes up {
+  0% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes down {
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes left {
+  0% {
+    transform: translateX(-150px);
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes right {
+  0% {
+    transform: translateX(250px);
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*컨테이너*/
 
 #container {
@@ -48,11 +95,18 @@ a {
   justify-content: space-between;
   text-align: center;
 }
+.con1_text li:nth-of-type(1) {
+  animation: left 1.5s ease-in-out forwards;
+}
+.con1_text li:nth-of-type(2) {
+  animation: right 1.5s 0.8s ease-in-out forwards;
+}
 .con1_text img {
   width: 70%;
 }
 .con1_text li {
   width: 100%;
+  opacity: 0;
 }
 .con1_text p {
   font-size: 18px;
@@ -72,6 +126,9 @@ a {
   background: #111;
   color: #fff;
 }
+.con2_product1.on {
+  animation: up 1.5s ease-out forwards;
+}
 .con2_product1 {
   width: 60%;
   height: 100%;
@@ -79,6 +136,7 @@ a {
   justify-content: space-between;
   margin: 0px auto;
   align-items: center;
+  opacity: 0;
 }
 .con2_product1 li {
   width: 100%;
@@ -277,7 +335,15 @@ a {
   display: flex;
   justify-content: space-evenly;
 }
-
+#con3 li {
+  opacity: 0;
+}
+#con3 li:nth-of-type(1).on {
+  animation: left 1s ease-in forwards;
+}
+#con3 li:nth-of-type(2).on {
+  animation: right 1s 0.5s ease-in forwards;
+}
 #con3 h4 {
   font-size: 30px;
   padding-top: 4vw;
@@ -323,6 +389,10 @@ a {
 }
 #con4 h2 {
   font-size: 40px;
+  opacity: 0;
+}
+#con4 h2.on {
+  animation: up 1s ease-out forwards;
 }
 #con4 > p {
   padding-top: 5vw;
@@ -330,6 +400,10 @@ a {
   display: inline-block;
   padding-bottom: 0.5vw;
   color: #666;
+  opacity: 0;
+}
+#con4 > p.on {
+  animation: up 1s 0.5s ease-out forwards;
 }
 .con4_list {
   display: flex;
@@ -337,8 +411,11 @@ a {
   padding-top: 5vw;
   width: 60%;
   margin: 0px auto;
+  opacity: 0;
 }
-
+.con4_list.on {
+  animation: up 1s ease-out forwards;
+}
 .con4_list li {
   width: 32%;
   max-width: 100%;
@@ -352,6 +429,10 @@ a {
   padding-top: 2vw;
   width: 60%;
   margin: 0px auto;
+  opacity: 0;
+}
+.con4_list2.on {
+  animation: up 1s ease-out forwards;
 }
 .con4_list2 li {
   width: 32%;
