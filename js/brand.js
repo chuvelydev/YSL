@@ -1,7 +1,6 @@
 $(function () {
   window.addEventListener("scroll", function () {
     let a = window.scrollY;
-    console.log("Scroll position:", a);
 
     if (a >= 500) {
       $(".y1 li:nth-of-type(1)").addClass("on");

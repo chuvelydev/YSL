@@ -11,7 +11,6 @@ $(function () {
 $(function () {
   window.addEventListener("scroll", function () {
     let a = window.scrollY;
-    console.log("Scroll position:", a);
 
     if (a >= 800) {
       $(".con1_text li:nth-of-type(1)").addClass("on");

@@ -1,7 +1,6 @@
 $(function () {
   window.addEventListener("scroll", function () {
     let a = window.scrollY;
-    console.log("Scroll position:", a);
 
     if (a >= 200) {
       $(".con1_text h4:nth-of-type(1)").addClass("on");
