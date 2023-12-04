@@ -1905,7 +1905,7 @@ a {
 /*모바일*/
 /*모바일*/
 
-@media (min-width: 392px) and (max-width: 767px) {
+@media (min-width: 392px) and (max-width: 767.9px) {
   /*비주얼*/
 
   #visual {
@@ -2331,6 +2331,7 @@ a {
     height: 60vh;
     margin-top: 5vw;
     background: url(../img/BG.jpg);
+    display: none;
   }
   .swiper {
     width: 100%;
@@ -2417,6 +2418,7 @@ a {
     position: absolute;
     top: 45%;
     z-index: 999;
+    display: none;
   }
   .slidecon2 .next2 {
     position: absolute;
@@ -2611,7 +2613,7 @@ a {
     z-index: 999;
   }
   .navi li {
-    width: 30px;
+    width: 20px;
     height: 5px;
     background: #ccc;
     cursor: pointer;
@@ -2893,7 +2895,7 @@ a {
   .beauty_list p {
     text-align: center;
     padding-top: 5vw;
-    font-size: 3vw;
+    font-size: 2.8vw;
   }
   .list_text1 span {
     color: #fff;
@@ -2901,7 +2903,7 @@ a {
   }
   .beauty_list h2 {
     text-align: center;
-    font-size: 5vw;
+    font-size: 4vw;
     padding-top: 2vw;
   }
   .beauty_list h5 {
@@ -2917,7 +2919,7 @@ a {
     display: inline-block;
     padding-top: 5vw;
     margin-left: 1vw;
-    font-size: 12px;
+    font-size: 10px;
   }
   .beauty_list:nth-of-type(2) a {
     margin-left: 0vw;
@@ -2944,6 +2946,7 @@ a {
     height: 30vh;
     margin-top: 5vw;
     background: url(../img/BG.jpg);
+    display: none;
   }
   .swiper {
     width: 100%;
@@ -3030,6 +3033,7 @@ a {
     position: absolute;
     top: 45%;
     z-index: 999;
+    display: none;
   }
   .slidecon2 span {
     font-size: 10px;
