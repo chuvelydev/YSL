@@ -1264,6 +1264,7 @@ a {
   }
   .con1_text h4 {
     opacity: 0;
+    width: 100%;
   }
   .con1_text span {
     color: #d55866;

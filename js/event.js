@@ -168,20 +168,13 @@ function handleScroll() {
     }
     if (a >= 600) {
       $(".con2_2 li:nth-of-type(1)").addClass("on");
-    }
-    if (a >= 800) {
       $(".con2_2 li:nth-of-type(2)").addClass("on");
-    }
-    if (a >= 1000) {
       $(".con2_2 li:nth-of-type(3)").addClass("on");
     }
-    if (a >= 1300) {
+
+    if (a >= 1200) {
       $(".con3_1").addClass("on");
-    }
-    if (a >= 1500) {
       $(".con3_2 li:nth-of-type(1)").addClass("on");
-    }
-    if (a >= 1700) {
       $(".con3_2 li:nth-of-type(2)").addClass("on");
     }
   }

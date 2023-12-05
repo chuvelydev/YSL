@@ -256,24 +256,10 @@ function handleScroll() {
 
     if (a >= 1700) {
       $(" #con2>.beauty_list:nth-of-type(1)").addClass("on");
-    }
-
-    if (a >= 1800) {
       $(" #con2>.beauty_list:nth-of-type(2)").addClass("on");
-    }
-    if (a >= 1900) {
       $(" #con2>.beauty_list:nth-of-type(3)").addClass("on");
     }
-    if (a >= 2000) {
-      $(".swiper h2").addClass("on");
-      $(".swiper h3").addClass("on");
-    }
-    if (a >= 2030) {
-      $(".swiper-wrapper img").addClass("on");
-      $(".swiper-wrapper h4").addClass("on");
-      $(".swiper-wrapper a").addClass("on");
-    }
-    if (a >= 2040) {
+    if (a >= 1800) {
       $(".exclusive h2").addClass("on");
       $(".exclusive h3").addClass("on");
       $(".exclu_slide").addClass("on");
