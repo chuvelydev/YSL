@@ -140,30 +140,22 @@ function handleScroll() {
     let a = window.scrollY;
     console.log("Scroll position:", a);
 
-    if (a >= 336) {
+        if (a >= 336) {
       $(".y1 li:nth-of-type(1)").addClass("on");
-      $(".y1 li:nth-of-type(2)").addClass("on");
-    }
-    if (a >= 600) {
       $(".y1 li:nth-of-type(2)").addClass("on");
     }
     if (a >= 980) {
       $(".y2 li:nth-of-type(1)").addClass("on");
-    }
-    if (a >= 1300) {
       $(".y2 li:nth-of-type(2)").addClass("on");
     }
-
     if (a >= 2000) {
       $(".y3 li:nth-of-type(1)").addClass("on");
-    }
-    if (a >= 2300) {
       $(".y3 li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 2700) {
+    if (a >= 2300) {
       $(".heading h1").addClass("on");
     }
-    if (a >= 3000) {
+    if (a >= 2400) {
       $(".item1").addClass("on");
       $(".item2").addClass("on");
       $(".item3").addClass("on");
@@ -171,7 +163,7 @@ function handleScroll() {
       $(".item5").addClass("on");
       $(".item6").addClass("on");
     }
-    if (a >= 3739) {
+    if (a >= 3000) {
       $(".ysl_text2 h2").addClass("on");
       $(".ysl_text2 h3:nth-of-type(1)").addClass("on");
       $(".ysl_text2 h3:nth-of-type(2)").addClass("on");
