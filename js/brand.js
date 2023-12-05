@@ -144,42 +144,41 @@ function handleScroll() {
       $(".y1 li:nth-of-type(1)").addClass("on");
       $(".y1 li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 700) {
+    if (a >= 600) {
       $(".y1 li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 1080) {
+    if (a >= 980) {
       $(".y2 li:nth-of-type(1)").addClass("on");
     }
-    if (a >= 1500) {
+    if (a >= 1300) {
       $(".y2 li:nth-of-type(2)").addClass("on");
     }
 
-    if (a >= 2100) {
+    if (a >= 2000) {
       $(".y3 li:nth-of-type(1)").addClass("on");
     }
-    if (a >= 2500) {
+    if (a >= 2300) {
       $(".y3 li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 3000) {
+    if (a >= 2700) {
       $(".heading h1").addClass("on");
     }
-    if (a >= 3250) {
+    if (a >= 3000) {
       $(".item1").addClass("on");
       $(".item2").addClass("on");
       $(".item3").addClass("on");
     }
 
-    if (a >= 3769) {
+    if (a >= 3739) {
       $(".item4").addClass("on");
       $(".item5").addClass("on");
       $(".item6").addClass("on");
     }
 
-    if (a >= 4600) {
+    if (a >= 4550) {
       $(".ysl_text2 h2").addClass("on");
       $(".ysl_text2 h3:nth-of-type(1)").addClass("on");
       $(".ysl_text2 h3:nth-of-type(2)").addClass("on");
     }
   }
 }
-

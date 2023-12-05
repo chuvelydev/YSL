@@ -840,7 +840,7 @@ a {
   #con1 {
     width: 100%;
     position: relative;
-    margin-bottom: 10vw;
+    margin-bottom: 18vw;
   }
   .con1_img {
     width: 60%;
@@ -874,7 +874,7 @@ a {
   }
   #con1 h4 {
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     padding-top: 1vw;
     background: linear-gradient(45deg, #111, #555, #f5e8d2);
     color: transparent;
@@ -893,7 +893,7 @@ a {
     padding-top: 5vw;
   }
   .beauty_list {
-    width: 80%;
+    width: 100%;
     margin: 5vw auto;
     text-align: center;
     align-items: center;
@@ -929,17 +929,17 @@ a {
     margin: 0px auto;
   }
   .beauty_list h2 {
-    font-size: 4vw;
+    font-size: 4.5vw;
     padding-top: 5vw;
     width: 100%;
   }
   .beauty_list h3 {
     padding-top: 2.5vw;
-    font-size: 1.8vw;
+    font-size: 2.5vw;
   }
   .beauty_list h4 {
     padding-top: 2vw;
-    font-size: 2.2vw;
+    font-size: 2.8vw;
   }
   .listimg {
     position: relative;
@@ -972,7 +972,7 @@ a {
   }
   .con2_box {
     background: #111;
-    padding: 2vw;
+    padding: 2.5vw;
     width: 20%;
     margin: 6vw auto 0vw;
     border: 1px solid #111;
@@ -981,7 +981,7 @@ a {
   .beauty_list a {
     color: #fff;
     display: inline-block;
-    font-size: 1.8vw;
+    font-size: 2vw;
     position: absolute;
     top: 50;
     left: 50%;
@@ -1015,7 +1015,7 @@ a {
   }
   #con3 h2 {
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
     padding-top: 1vw;
     background: linear-gradient(45deg, #111, #555, #f5e8d2);
     color: transparent;

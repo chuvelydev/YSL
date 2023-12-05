@@ -119,15 +119,15 @@ function handleScroll() {
     if (a >= 120) {
       $(".con2_product1").addClass("on");
     }
-    if (a >= 800) {
+    if (a >= 700) {
       $("#con3 li:nth-of-type(1)").addClass("on");
       $("#con3 li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 1400) {
+    if (a >= 1300) {
       $("#con4 > p").addClass("on");
       $("#con4 h2").addClass("on");
     }
-    if (a >= 1500) {
+    if (a >= 1400) {
       $(".con4_list").addClass("on");
       $(".con4_list2").addClass("on");
     }
