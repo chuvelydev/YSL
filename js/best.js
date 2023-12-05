@@ -20,33 +20,6 @@ $(function () {
   });
 });
 
-/*
-$(function () {
-  window.addEventListener("scroll", function () {
-    let a = window.scrollY;
-
-    if (a >= 800) {
-      $(".con1_text li:nth-of-type(1)").addClass("on");
-      $(".con1_text li:nth-of-type(2)").addClass("on");
-    }
-    if (a >= 1000) {
-      $(".con2_product1").addClass("on");
-    }
-    if (a >= 2000) {
-      $("#con3 li:nth-of-type(1)").addClass("on");
-      $("#con3 li:nth-of-type(2)").addClass("on");
-    }
-    if (a >= 2800) {
-      $("#con4 > p").addClass("on");
-      $("#con4 h2").addClass("on");
-    }
-    if (a >= 3100) {
-      $(".con4_list").addClass("on");
-      $(".con4_list2").addClass("on");
-    }
-  });
-});
-*/
 $(function () {
   // Initial call
   handleScroll();
@@ -86,7 +59,7 @@ function handleScroll() {
       $(".con4_list2").addClass("on");
     }
   } else if (
-    window.matchMedia("(min-width: 768px) and (max-width: 1220px)").matches
+    window.matchMedia("(min-width: 768px) and (max-width: 1220.9px)").matches
   ) {
     let a = window.scrollY;
     console.log("Scroll position:", a);
@@ -113,24 +86,48 @@ function handleScroll() {
     window.matchMedia("(min-width: 392px) and (max-width: 767.9px)").matches
   ) {
     let a = window.scrollY;
-    console.log("Scroll position:", a);
 
-    if (a >= 800) {
+    if (a >= 200) {
       $(".con1_text li:nth-of-type(1)").addClass("on");
       $(".con1_text li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 1000) {
+    if (a >= 500) {
       $(".con2_product1").addClass("on");
     }
-    if (a >= 2000) {
+    if (a >= 1400) {
       $("#con3 li:nth-of-type(1)").addClass("on");
+    }
+    if (a >= 1600) {
       $("#con3 li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 2800) {
+    if (a >= 2000) {
       $("#con4 > p").addClass("on");
       $("#con4 h2").addClass("on");
     }
-    if (a >= 3100) {
+    if (a >= 2300) {
+      $(".con4_list").addClass("on");
+      $(".con4_list2").addClass("on");
+    }
+  } else if (window.matchMedia("(max-width: 391.9px)").matches) {
+    let a = window.scrollY;
+    console.log("Scroll position:", a);
+
+    if (a >= 0) {
+      $(".con1_text li:nth-of-type(1)").addClass("on");
+      $(".con1_text li:nth-of-type(2)").addClass("on");
+    }
+    if (a >= 120) {
+      $(".con2_product1").addClass("on");
+    }
+    if (a >= 800) {
+      $("#con3 li:nth-of-type(1)").addClass("on");
+      $("#con3 li:nth-of-type(2)").addClass("on");
+    }
+    if (a >= 1400) {
+      $("#con4 > p").addClass("on");
+      $("#con4 h2").addClass("on");
+    }
+    if (a >= 1500) {
       $(".con4_list").addClass("on");
       $(".con4_list2").addClass("on");
     }
