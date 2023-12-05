@@ -118,7 +118,7 @@ function handleScroll() {
     if (a >= 680) {
       $(".con2_1 li:nth-of-type(1)").addClass("on");
     }
-    if (a >= 850) {
+    if (a >= 690) {
       $(".con2_1 li:nth-of-type(2)").addClass("on");
     }
     if (a >= 1180) {
@@ -127,10 +127,10 @@ function handleScroll() {
     if (a >= 1200) {
       $(".con2_2 li:nth-of-type(1)").addClass("on");
     }
-    if (a >= 1450) {
+    if (a >= 1350) {
       $(".con2_2 li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 1800) {
+    if (a >= 1600) {
       $(".con2_2 li:nth-of-type(3)").addClass("on");
     }
     if (a >= 2200) {
@@ -138,8 +138,6 @@ function handleScroll() {
     }
     if (a >= 2400) {
       $(".con3_2 li:nth-of-type(1)").addClass("on");
-    }
-    if (a >= 2700) {
       $(".con3_2 li:nth-of-type(2)").addClass("on");
     }
   } else if (window.matchMedia("(max-width: 391.9px)").matches) {
@@ -172,7 +170,7 @@ function handleScroll() {
       $(".con2_2 li:nth-of-type(3)").addClass("on");
     }
 
-    if (a >= 1200) {
+    if (a >= 1800) {
       $(".con3_1").addClass("on");
       $(".con3_2 li:nth-of-type(1)").addClass("on");
       $(".con3_2 li:nth-of-type(2)").addClass("on");

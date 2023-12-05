@@ -233,7 +233,7 @@ function handleScroll() {
       $(".swiper-wrapper h4").addClass("on");
       $(".swiper-wrapper a").addClass("on");
     }
-    if (a >= 3100) {
+    if (a >= 2500) {
       $(".exclusive h2").addClass("on");
       $(".exclusive h3").addClass("on");
       $(".exclu_slide").addClass("on");
@@ -252,14 +252,12 @@ function handleScroll() {
     if (a >= 1630) {
       $("#con2 > h3 ").addClass("on");
       $("#con2 > h2").addClass("on");
-    }
-
-    if (a >= 1700) {
       $(" #con2>.beauty_list:nth-of-type(1)").addClass("on");
       $(" #con2>.beauty_list:nth-of-type(2)").addClass("on");
       $(" #con2>.beauty_list:nth-of-type(3)").addClass("on");
     }
-    if (a >= 1800) {
+
+    if (a >= 1700) {
       $(".exclusive h2").addClass("on");
       $(".exclusive h3").addClass("on");
       $(".exclu_slide").addClass("on");

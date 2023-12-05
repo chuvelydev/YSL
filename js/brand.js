@@ -94,44 +94,38 @@ function handleScroll() {
     window.matchMedia("(min-width: 392px) and (max-width: 767.9px)").matches
   ) {
     let a = window.scrollY;
-
+    console.log("Scroll position:", a);
     if (a >= 336) {
       $(".y1 li:nth-of-type(1)").addClass("on");
     }
     if (a >= 900) {
       $(".y1 li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 1400) {
+    if (a >= 1200) {
       $(".y2 li:nth-of-type(1)").addClass("on");
     }
-    if (a >= 1800) {
+    if (a >= 1600) {
       $(".y2 li:nth-of-type(2)").addClass("on");
     }
 
-    if (a >= 2500) {
+    if (a >= 2200) {
       $(".y3 li:nth-of-type(1)").addClass("on");
     }
-    if (a >= 3200) {
+    if (a >= 2900) {
       $(".y3 li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 3700) {
+    if (a >= 3400) {
       $(".heading h1").addClass("on");
     }
-    if (a >= 3950) {
+    if (a >= 3750) {
       $(".item1").addClass("on");
       $(".item2").addClass("on");
-    }
-    if (a >= 4700) {
       $(".item3").addClass("on");
-    }
-
-    if (a >= 5869) {
       $(".item4").addClass("on");
       $(".item5").addClass("on");
       $(".item6").addClass("on");
     }
-
-    if (a >= 7200) {
+    if (a >= 5500) {
       $(".ysl_text2 h2").addClass("on");
       $(".ysl_text2 h3:nth-of-type(1)").addClass("on");
       $(".ysl_text2 h3:nth-of-type(2)").addClass("on");
@@ -140,30 +134,28 @@ function handleScroll() {
     let a = window.scrollY;
     console.log("Scroll position:", a);
 
-    if (a >= 336) {
+    if (a >= 300) {
       $(".y1 li:nth-of-type(1)").addClass("on");
+    }
+    if (a >= 700) {
       $(".y1 li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 600) {
-      $(".y1 li:nth-of-type(2)").addClass("on");
-    }
-    if (a >= 980) {
+    if (a >= 1000) {
       $(".y2 li:nth-of-type(1)").addClass("on");
     }
-    if (a >= 1300) {
+    if (a >= 1600) {
       $(".y2 li:nth-of-type(2)").addClass("on");
     }
-
-    if (a >= 2000) {
+    if (a >= 2100) {
       $(".y3 li:nth-of-type(1)").addClass("on");
     }
     if (a >= 2300) {
       $(".y3 li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 2700) {
+    if (a >= 2900) {
       $(".heading h1").addClass("on");
     }
-    if (a >= 3000) {
+    if (a >= 3100) {
       $(".item1").addClass("on");
       $(".item2").addClass("on");
       $(".item3").addClass("on");
@@ -171,7 +163,7 @@ function handleScroll() {
       $(".item5").addClass("on");
       $(".item6").addClass("on");
     }
-    if (a >= 3739) {
+    if (a >= 4800) {
       $(".ysl_text2 h2").addClass("on");
       $(".ysl_text2 h3:nth-of-type(1)").addClass("on");
       $(".ysl_text2 h3:nth-of-type(2)").addClass("on");
