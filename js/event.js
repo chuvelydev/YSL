@@ -172,7 +172,7 @@ function handleScroll() {
       $(".con2_2 li:nth-of-type(3)").addClass("on");
     }
 
-    if (a >= 1200) {
+    if (a >= 900) {
       $(".con3_1").addClass("on");
       $(".con3_2 li:nth-of-type(1)").addClass("on");
       $(".con3_2 li:nth-of-type(2)").addClass("on");
