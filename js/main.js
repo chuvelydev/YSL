@@ -249,6 +249,7 @@ function handleScroll() {
       $(".holiday_list").addClass("on");
     }
 
+   
     if (a >= 1630) {
       $("#con2 > h3 ").addClass("on");
       $("#con2 > h2").addClass("on");

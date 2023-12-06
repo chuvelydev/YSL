@@ -32,19 +32,19 @@ function handleScroll() {
       $(".y1 li:nth-of-type(1)").addClass("on");
       $(".y1 li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 1300) {
+    if (a >= 1200) {
       $(".y2 li:nth-of-type(1)").addClass("on");
       $(".y2 li:nth-of-type(2)").addClass("on");
     }
 
-    if (a >= 2253) {
+    if (a >= 1853) {
       $(".y3 li:nth-of-type(1)").addClass("on");
       $(".y3 li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 3400) {
+    if (a >= 2500) {
       $(".heading h1").addClass("on");
     }
-    if (a >= 3700) {
+    if (a >= 2700) {
       $(".item1").addClass("on");
       $(".item2").addClass("on");
       $(".item3").addClass("on");
@@ -52,7 +52,7 @@ function handleScroll() {
       $(".item5").addClass("on");
       $(".item6").addClass("on");
     }
-    if (a >= 4400) {
+    if (a >= 3500) {
       $(".ysl_text2 h2").addClass("on");
       $(".ysl_text2 h3:nth-of-type(1)").addClass("on");
       $(".ysl_text2 h3:nth-of-type(2)").addClass("on");
@@ -85,7 +85,7 @@ function handleScroll() {
       $(".item5").addClass("on");
       $(".item6").addClass("on");
     }
-    if (a >= 3600) {
+    if (a >= 3800) {
       $(".ysl_text2 h2").addClass("on");
       $(".ysl_text2 h3:nth-of-type(1)").addClass("on");
       $(".ysl_text2 h3:nth-of-type(2)").addClass("on");
@@ -125,14 +125,13 @@ function handleScroll() {
       $(".item5").addClass("on");
       $(".item6").addClass("on");
     }
-    if (a >= 5500) {
+    if (a >= 5900) {
       $(".ysl_text2 h2").addClass("on");
       $(".ysl_text2 h3:nth-of-type(1)").addClass("on");
       $(".ysl_text2 h3:nth-of-type(2)").addClass("on");
     }
   } else if (window.matchMedia("(max-width: 391.9px)").matches) {
     let a = window.scrollY;
-    console.log("Scroll position:", a);
 
     if (a >= 300) {
       $(".y1 li:nth-of-type(1)").addClass("on");
@@ -140,22 +139,22 @@ function handleScroll() {
     if (a >= 700) {
       $(".y1 li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 1000) {
+    if (a >= 1100) {
       $(".y2 li:nth-of-type(1)").addClass("on");
     }
-    if (a >= 1600) {
+    if (a >= 1500) {
       $(".y2 li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 2100) {
+    if (a >= 1900) {
       $(".y3 li:nth-of-type(1)").addClass("on");
     }
-    if (a >= 2300) {
+    if (a >= 2200) {
       $(".y3 li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 2900) {
+    if (a >= 2700) {
       $(".heading h1").addClass("on");
     }
-    if (a >= 3100) {
+    if (a >= 2900) {
       $(".item1").addClass("on");
       $(".item2").addClass("on");
       $(".item3").addClass("on");
@@ -163,7 +162,7 @@ function handleScroll() {
       $(".item5").addClass("on");
       $(".item6").addClass("on");
     }
-    if (a >= 4800) {
+    if (a >= 4300) {
       $(".ysl_text2 h2").addClass("on");
       $(".ysl_text2 h3:nth-of-type(1)").addClass("on");
       $(".ysl_text2 h3:nth-of-type(2)").addClass("on");

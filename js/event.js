@@ -100,7 +100,7 @@ function handleScroll() {
     window.matchMedia("(min-width: 392px) and (max-width: 767.9px)").matches
   ) {
     let a = window.scrollY;
-
+    console.log("Scroll position:", a);
     if (a >= 90) {
       $(".con1_text h4:nth-of-type(1)").addClass("on");
       $(".con1_text h4:nth-of-type(2)").addClass("on");
@@ -112,37 +112,37 @@ function handleScroll() {
     if (a >= 270) {
       $(".con2_product1").addClass("on");
     }
-    if (a >= 600) {
+    if (a >= 400) {
       $("#con2 > h2").addClass("on");
     }
-    if (a >= 680) {
+    if (a >= 490) {
       $(".con2_1 li:nth-of-type(1)").addClass("on");
     }
-    if (a >= 690) {
+    if (a >= 700) {
       $(".con2_1 li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 1180) {
+    if (a >= 850) {
       $("#con2 h3").addClass("on");
     }
-    if (a >= 1200) {
+    if (a >= 1000) {
       $(".con2_2 li:nth-of-type(1)").addClass("on");
     }
-    if (a >= 1350) {
+    if (a >= 1200) {
       $(".con2_2 li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 1600) {
+    if (a >= 1350) {
       $(".con2_2 li:nth-of-type(3)").addClass("on");
     }
-    if (a >= 2200) {
+    if (a >= 1900) {
       $(".con3_1").addClass("on");
     }
-    if (a >= 2400) {
+    if (a >= 2100) {
       $(".con3_2 li:nth-of-type(1)").addClass("on");
       $(".con3_2 li:nth-of-type(2)").addClass("on");
     }
   } else if (window.matchMedia("(max-width: 391.9px)").matches) {
     let a = window.scrollY;
-    console.log("Scroll position:", a);
+
     if (a >= 90) {
       $(".con1_text h4:nth-of-type(1)").addClass("on");
       $(".con1_text h4:nth-of-type(2)").addClass("on");
@@ -161,7 +161,7 @@ function handleScroll() {
       $(".con2_1 li:nth-of-type(1)").addClass("on");
       $(".con2_1 li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 400) {
+    if (a >= 500) {
       $("#con2 h3").addClass("on");
     }
     if (a >= 600) {
@@ -170,7 +170,7 @@ function handleScroll() {
       $(".con2_2 li:nth-of-type(3)").addClass("on");
     }
 
-    if (a >= 1800) {
+    if (a >= 1300) {
       $(".con3_1").addClass("on");
       $(".con3_2 li:nth-of-type(1)").addClass("on");
       $(".con3_2 li:nth-of-type(2)").addClass("on");
