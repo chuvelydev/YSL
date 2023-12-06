@@ -57,6 +57,7 @@ function handleScroll() {
     if (a >= 3100) {
       $(".con4_list").addClass("on");
       $(".con4_list2").addClass("on");
+      $(".con4_box").addClass("on");
     }
   } else if (
     window.matchMedia("(min-width: 768px) and (max-width: 1220.9px)").matches
@@ -81,6 +82,7 @@ function handleScroll() {
     if (a >= 2600) {
       $(".con4_list").addClass("on");
       $(".con4_list2").addClass("on");
+      $(".con4_box").addClass("on");
     }
   } else if (
     window.matchMedia("(min-width: 392px) and (max-width: 767.9px)").matches
@@ -107,6 +109,7 @@ function handleScroll() {
     if (a >= 2300) {
       $(".con4_list").addClass("on");
       $(".con4_list2").addClass("on");
+      $(".con4_box").addClass("on");
     }
   } else if (window.matchMedia("(max-width: 391.9px)").matches) {
     let a = window.scrollY;
@@ -130,6 +133,7 @@ function handleScroll() {
     if (a >= 1400) {
       $(".con4_list").addClass("on");
       $(".con4_list2").addClass("on");
+      $(".con4_box").addClass("on");
     }
   }
 }

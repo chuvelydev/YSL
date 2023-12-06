@@ -463,6 +463,10 @@ a {
     background: #111;
     margin: 4vw auto 8vw;
     border: 1px solid #111;
+    opacity: 0;
+  }
+  .con4_box.on {
+    animation: up 1s 0.5s ease-out forwards;
   }
   .con4_box a {
     color: #fff;
@@ -891,6 +895,10 @@ a {
     background: #111;
     margin: 4vw auto 8vw;
     border: 1px solid #111;
+    opacity: 0;
+  }
+  .con4_box.on {
+    animation: up 1s 0.5s ease-out forwards;
   }
   .con4_box a {
     color: #fff;
@@ -1335,6 +1343,10 @@ a {
     margin: 10vw auto 15vw;
     border: 1px solid #111;
     position: relative;
+    opacity: 0;
+  }
+  .con4_box.on {
+    animation: up 1s 0.5s ease-out forwards;
   }
   .con4_box a {
     color: #fff;
@@ -1777,6 +1789,10 @@ a {
     margin: 10vw auto 15vw;
     border: 1px solid #111;
     position: relative;
+    opacity: 0;
+  }
+  .con4_box.on {
+    animation: up 1s 0.5s ease-out forwards;
   }
   .con4_box a {
     color: #fff;

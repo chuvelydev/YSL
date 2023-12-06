@@ -125,7 +125,7 @@ function handleScroll() {
       $(".item5").addClass("on");
       $(".item6").addClass("on");
     }
-    if (a >= 5900) {
+    if (a >= 5300) {
       $(".ysl_text2 h2").addClass("on");
       $(".ysl_text2 h3:nth-of-type(1)").addClass("on");
       $(".ysl_text2 h3:nth-of-type(2)").addClass("on");
