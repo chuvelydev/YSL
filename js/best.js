@@ -62,7 +62,7 @@ function handleScroll() {
     window.matchMedia("(min-width: 768px) and (max-width: 1220.9px)").matches
   ) {
     let a = window.scrollY;
-    console.log("Scroll position:", a);
+
     if (a >= 375) {
       $(".con1_text li:nth-of-type(1)").addClass("on");
       $(".con1_text li:nth-of-type(2)").addClass("on");
@@ -91,20 +91,20 @@ function handleScroll() {
       $(".con1_text li:nth-of-type(1)").addClass("on");
       $(".con1_text li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 500) {
+    if (a >= 600) {
       $(".con2_product1").addClass("on");
     }
-    if (a >= 936) {
+    if (a >= 1200) {
       $("#con3 li:nth-of-type(1)").addClass("on");
     }
-    if (a >= 1200) {
+    if (a >= 1700) {
       $("#con3 li:nth-of-type(2)").addClass("on");
     }
-    if (a >= 1600) {
+    if (a >= 2200) {
       $("#con4 > p").addClass("on");
       $("#con4 h2").addClass("on");
     }
-    if (a >= 1700) {
+    if (a >= 2300) {
       $(".con4_list").addClass("on");
       $(".con4_list2").addClass("on");
     }

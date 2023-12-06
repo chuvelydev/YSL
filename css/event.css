@@ -1039,7 +1039,7 @@ a {
     color: #111;
   }
   .con2_2 {
-    width: 60%;
+    width: 80%;
     margin: 0px auto;
     padding-top: 10vw;
     padding-bottom: 25vw;
@@ -1061,11 +1061,11 @@ a {
     width: 60%;
   }
   .con2_2 h4 {
-    font-size: 2.2vw;
+    font-size: 2.5vw;
     padding: 2vw 0 1.2vw;
   }
   .con2_2 p {
-    font-size: 2vw;
+    font-size: 2.2vw;
     color: #555;
     padding-bottom: 5vw;
     width: 60%;
@@ -1074,7 +1074,7 @@ a {
   /*con3*/
   #con3 {
     width: 100%;
-    height: 600px;
+    height: 140vw;
   }
   .con3_1 {
     width: 100%;
@@ -1449,7 +1449,7 @@ a {
   /*con3*/
   #con3 {
     width: 100%;
-    height: 600px;
+    height: 140vw;
   }
   .con3_1 {
     width: 100%;
